@@ -1,0 +1,109 @@
+.heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: orange;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;      
+    
+    border-radius: 2rem;
+    padding: 20px;
+    margin: 20px auto;        
+    width: fit-content;
+    border: 1px solid rgba(255, 165, 0, 0.6);       
+    
+    background: rgba(0, 0, 0, 0.5);  /* semi-transparent black */
+    backdrop-filter: blur(10px);      /* glass effect */
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    border-radius: 50%;
+    background: transparent;
+    
+    color: orange;
+    margin: 5px;
+    width: 75px;
+    height:75px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.display{
+    
+    
+    width: 325px;
+    height: 75px;
+    border-radius: 9px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-style: double;
+    border-color: rgba(255, 165, 0, 0.6);
+    
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-align: right;    
+    padding: 20px;
+    overflow-x: auto;
+    color: orange;
+    background: rgba(0, 0, 0, 0.4); 
+}
+.img{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    
+}
+.equals{
+    background-color: rgb(231, 150, 0);
+    color: aliceblue;
+    font-size: 30px;
+}
+.rows{
+    display: grid;
+    grid-template-columns:repeat(4,auto);
+    grid-gap: 8px;
+    justify-content: center;
+}
+#footer{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-decoration:double;
+    text-align: right;
+    color: orange;   
+}
+.divison{
+    font-size: 30px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url("./img8.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Date{
+    font-size:20px;
+    color:orange; 
+    text-align:center;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border:1px solid rgba(255, 165, 0, 0.6);
+    background:rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+}
